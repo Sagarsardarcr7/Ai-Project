@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Courses - AI Learning Hub</title>
+    <link rel="stylesheet" href="style.css">
+    <style>/* Hero Section */
+        .hero {
+            text-align: center;
+            padding: 2em;
+            background-color: #4a90e2;
+            color: #fff;
+        }
+        
+        /* Resources Section */
+        .resources-section {
+            padding: 2em;
+        }
+        
+        .resource-grid {
+            display: flex;
+            gap: 1em;
+            margin-top: 1em;
+            flex-wrap: wrap;
+        }
+        
+        .resource {
+            flex: 1;
+            min-width: 250px;
+            background-color: #f4f4f4;
+            padding: 1em;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        
+        .resource h3 {
+            margin-bottom: 0.5em;
+        }
+        
+        .download-button {
+            display: inline-block;
+            margin-top: 1em;
+            padding: 0.5em 1em;
+            background-color: #333;
+            color: #fff;
+            border-radius: 5px;
+            text-decoration: none;
+        }
+        
+        .tools-list {
+            list-style: disc;
+            padding-left: 2em;
+            margin-top: 1em;
+        }
+        
+        .tools-list li {
+            margin-bottom: 0.5em;
+        }
+        
+        /* FAQ Section */
+        .faq {
+            padding: 2em;
+            background-color: #f1f1f1;
+        }
+        
+        .faq-item {
+            margin-bottom: 1em;
+        }
+        
+        .faq-item h3 {
+            color: #4a90e2;
+        }
+        
+        /* General Button Style */
+        .cta-button {
+            display: inline-block;
+            margin-top: 1em;
+            padding: 0.5em 1.5em;
+            background-color: #333;
+            color: #fff;
+            border-radius: 5px;
+            text-decoration: none;
+        }
+        </style>
+</head>
+<body>
+    <header>
+        <h1>AI-Powered Learning Hub</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="courses.html">Courses</a></li>
+                <li><a href="resources.html">Resources</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <!-- Courses Hero Section -->
+        <section class="hero">
+            <h2>Explore Our AI Courses</h2>
+            <p>We offer a comprehensive range of courses for all levels, from beginner to advanced. Join us and take your AI skills to the next level!</p>
+        </section>
+        
+        <!-- Beginner Courses Section -->
+        <section class="courses-section">
+            <h2>Beginner Courses</h2>
+            <div class="course-grid">
+                <div class="course">
+                    <h3>Introduction to AI</h3>
+                    <p>A foundational course covering AI history, concepts, and applications. Perfect for beginners.</p>
+                </div>
+                <div class="course">
+                    <h3>Basic Python for AI</h3>
+                    <p>Learn Python, the essential programming language for AI and machine learning.</p>
+                </div>
+                <div class="course">
+                    <h3>AI Ethics and Safety</h3>
+                    <p>An overview of ethical considerations and safety measures in AI development.</p>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Intermediate Courses Section -->
+        <section class="courses-section">
+            <h2>Intermediate Courses</h2>
+            <div class="course-grid">
+                <div class="course">
+                    <h3>Machine Learning Essentials</h3>
+                    <p>Delve into supervised and unsupervised learning techniques with hands-on projects.</p>
+                </div>
+                <div class="course">
+                    <h3>Data Science for AI</h3>
+                    <p>Learn data science concepts essential for building and deploying AI applications.</p>
+                </div>
+                <div class="course">
+                    <h3>Natural Language Processing (NLP)</h3>
+                    <p>An introduction to NLP, focusing on text processing and sentiment analysis.</p>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Advanced Courses Section -->
+        <section class="courses-section">
+            <h2>Advanced Courses</h2>
+            <div class="course-grid">
+                <div class="course">
+                    <h3>Deep Learning with TensorFlow</h3>
+                    <p>Explore neural networks, deep learning, and TensorFlow libraries for advanced AI projects.</p>
+                </div>
+                <div class="course">
+                    <h3>AI for Computer Vision</h3>
+                    <p>Learn the applications of AI in image recognition, object detection, and computer vision.</p>
+                </div>
+                <div class="course">
+                    <h3>Reinforcement Learning</h3>
+                    <p>Master reinforcement learning algorithms used in robotics, gaming, and decision-making.</p>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Course Highlights Section -->
+        <section class="highlights">
+            <h2>Course Highlights</h2>
+            <p>Our AI courses are designed to provide:</p>
+            <ul>
+                <li>Hands-on projects to apply your knowledge</li>
+                <li>Access to industry-standard tools and software</li>
+                <li>Experienced instructors and guest lectures</li>
+                <li>Flexible schedules and self-paced options</li>
+            </ul>
+        </section>
+        
+        <!-- Testimonials Section -->
+        <section class="testimonials">
+            <h2>Student Testimonials</h2>
+            <div class="testimonial">
+                <p>"The Machine Learning Essentials course was phenomenal. I felt prepared to start my AI career!"</p>
+                <h4>- Jamie L., Software Developer</h4>
+            </div>
+            <div class="testimonial">
+                <p>"I never thought I could grasp deep learning concepts until I took the Advanced TensorFlow course. Highly recommend it!"</p>
+                <h4>- Chris T., Data Scientist</h4>
+            </div>
+        </section>
+        
+        <!-- FAQ Section -->
+        <section class="faq">
+            <h2>Frequently Asked Questions</h2>
+            <div class="faq-item">
+                <h3>What prerequisites are required?</h3>
+                <p>Beginner courses have no prerequisites, while intermediate and advanced courses may require basic programming knowledge.</p>
+            </div>
+            <div class="faq-item">
+                <h3>Can I get a certificate?</h3>
+                <p>Yes, all our courses offer certification upon successful completion.</p>
+            </div>
+            <div class="faq-item">
+                <h3>Are there any free courses available?</h3>
+                <p>We offer introductory courses for free. Visit our Resources page for more free learning materials.</p>
+            </div>
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy; 2024 AI Learning Hub. All rights reserved.</p>
+    </footer>
+</body>
+</html>
