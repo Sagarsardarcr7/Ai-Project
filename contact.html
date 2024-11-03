@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - AI Learning Hub</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* Hero Section */
+.hero {
+    text-align: center;
+    padding: 2em;
+    background-color: #4a90e2;
+    color: #fff;
+}
+
+/* Contact Form Section */
+.contact-form-section {
+    padding: 2em;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.contact-form label {
+    font-weight: bold;
+}
+
+.contact-form input, .contact-form textarea {
+    padding: 0.5em;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.submit-button {
+    padding: 0.7em 1.5em;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.submit-button:hover {
+    background-color: #555;
+}
+
+/* Contact Information Section */
+.contact-info {
+    padding: 2em;
+    background-color: #f8f9fa;
+}
+
+.contact-info ul {
+    list-style: none;
+    padding: 0;
+}
+
+.contact-info li {
+    margin-bottom: 0.5em;
+}
+
+/* Social Media Section */
+.social-media {
+    padding: 2em;
+}
+
+.social-links {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 1em;
+}
+
+.social-links a {
+    padding: 0.5em 1em;
+    background-color: #4a90e2;
+    color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.social-links a:hover {
+    background-color: #3b7ac3;
+}
+
+/* Location Map Section */
+.location-map {
+    padding: 2em;
+    text-align: center;
+}
+
+.location-map iframe {
+    width: 100%;
+    max-width: 600px;
+    height: 450px;
+    border: 0;
+    border-radius: 5px;
+}
+
+/* FAQ Section */
+.faq {
+    padding: 2em;
+    background-color: #f1f1f1;
+}
+
+.faq-item {
+    margin-bottom: 1em;
+}
+
+.faq-item h3 {
+    color: #4a90e2;
+}
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>AI-Powered Learning Hub</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="courses.html">Courses</a></li>
+                <li><a href="resources.html">Resources</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <!-- Hero Section -->
+        <section class="hero">
+            <h2>Get in Touch</h2>
+            <p>Have questions? We’re here to help. Reach out to us through our contact form, email, or social media.</p>
+        </section>
+        
+        <!-- Contact Form Section -->
+        <section class="contact-form-section">
+            <h2>Contact Us</h2>
+            <form class="contact-form" action="submit_contact.php" method="POST">
+                <label for="name">Full Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="subject">Subject:</label>
+                <input type="text" id="subject" name="subject" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+
+                <button type="submit" class="submit-button">Send Message</button>
+            </form>
+        </section>
+        
+        <!-- Contact Information Section -->
+        <section class="contact-info">
+            <h2>Contact Information</h2>
+            <p>Feel free to reach out to us directly. Here’s how you can contact us:</p>
+            <ul>
+                <li><strong>Email:</strong> support@ailearninghub.com</li>
+                <li><strong>Phone:</strong> +1 (555) 123-4567</li>
+                <li><strong>Office Hours:</strong> Monday - Friday, 9 AM - 5 PM</li>
+                <li><strong>Address:</strong> 123 AI Street, Innovation City, Techland</li>
+            </ul>
+        </section>
+
+        <!-- Social Media Section -->
+        <section class="social-media">
+            <h2>Connect with Us</h2>
+            <p>Stay updated by following us on social media:</p>
+            <ul class="social-links">
+                <li><a href="https://facebook.com/ailearninghub" target="_blank">Facebook</a></li>
+                <li><a href="https://twitter.com/ailearninghub" target="_blank">Twitter</a></li>
+                <li><a href="https://linkedin.com/company/ailearninghub" target="_blank">LinkedIn</a></li>
+                <li><a href="https://instagram.com/ailearninghub" target="_blank">Instagram</a></li>
+            </ul>
+        </section>
+        
+        <!-- Map Section -->
+        <section class="location-map">
+            <h2>Find Us Here</h2>
+            <p>Visit our main office at the following location:</p>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.835434509087!2d144.9537363153157!3d-37.81627927975154!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad65d5df1dd0b7f%3A0xbbf63c1f029c74a3!2s123%20AI%20Street%2C%20Innovation%20City%2C%20Techland!5e0!3m2!1sen!2sus!4v1639671802030!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </section>
+        
+        <!-- FAQ Section -->
+        <section class="faq">
+            <h2>Frequently Asked Questions</h2>
+            <div class="faq-item">
+                <h3>How can I contact support?</h3>
+                <p>Use the contact form, email us at support@ailearninghub.com, or call +1 (555) 123-4567.</p>
+            </div>
+            <div class="faq-item">
+                <h3>Where can I find answers to course-related questions?</h3>
+                <p>Visit the Courses or Resources pages, or check our FAQ section for more information.</p>
+            </div>
+            <div class="faq-item">
+                <h3>Can I schedule a visit to the AI Learning Hub office?</h3>
+                <p>Yes, please contact us to schedule a visit during our office hours.</p>
+            </div>
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy; 2024 AI Learning Hub. All rights reserved.</p>
+    </footer>
+</body>
+</html>
